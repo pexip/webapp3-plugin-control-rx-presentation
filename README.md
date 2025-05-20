@@ -14,6 +14,12 @@ participant in the paricipant list. This allows the host user to set:
 - **Deny receive presentation**: Stop participant receiving presentation from the meeting
 - **Allow receive presentation**: Allow participant to receive presentation from the meeting (default)
 
+The plugin relies on the generic API request: `plugin.conference.sendRequest`. This function is not typed published plugin-api package.
+
+## Limitations
+
+The plugin only works for transcoded meetings, it will not show up in direct media calls.
+
 ## Run for development
 
 - To be able to build the plugin, you need to comply with the following versions
