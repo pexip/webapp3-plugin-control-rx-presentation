@@ -1,6 +1,6 @@
 {
   "name": "plugin-control-rxpresentation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web App 3 Plugin: Control receive presentation",
   "main": "index.js",
   "scripts": {
